@@ -50,7 +50,7 @@ const UiCard = () => {
   }
 
   return (
-    <div className="bg-white/30 backdrop-blur-md border border-white/10 rounded-lg shadow-lg max-w-lg mx-auto p-10 flex md:flex-row flex-col gap-10">
+    <div className="bg-white/30 backdrop-blur-md border border-white/10 rounded-lg shadow-lg max-w-lg md:mx-auto mx-5 p-10 flex md:flex-row flex-col gap-10">
       <div className="md:w-44 w-full relative">
         <img src={batterySvg} alt="battery" className="md:h-full h-20 md:w-auto w-full md:scale-[200%] scale-[200%] md:rotate-0 rotate-90" />
         <p className="text-3xl font-bold absolute md:top-28 top-5 md:left-0 -left-2.5 w-full text-center">
